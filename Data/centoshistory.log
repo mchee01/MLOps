@@ -1,0 +1,733 @@
+    1  ls
+    2  c
+    3  clear
+    4  exit
+    5  yum -y update
+    6  yum update
+    7  rpm -y update
+    8  help
+    9  help update
+   10  clear
+   11  yum -y update
+   12  c
+   13  clear
+   14  ls
+   15  sudo su -
+   16  ls
+   17  exit
+   18  c
+   19  clear
+   20  yum -y update
+   21  c
+   22  yum -y update
+   23  yum -y upgrade
+   24  clear
+   25  ifconfig
+   26  ip a
+   27  shutdown -h now
+   28  clear
+   29  exit
+   30  clear
+   31  ls
+   32  clear
+   33  ip -a
+   34  ip a
+   35  systemctl start NetworkManager
+   36  systemctl status NetworkManager
+   37  ip a
+   38  clear
+   39  ls
+   40  ls -al
+   41  clear
+   42  ip a
+   43  clear
+   44  shutdown -h now
+   45  ls
+   46  alias
+   47  c
+   48  ls -al
+   49  cat .cshrc
+   50  cat .tcshrc 
+   51  shutdown -h now
+   52  c
+   53  clear
+   54  git clone https://github.com/mchee01/MLOps.git
+   55  ls
+   56  cd MLOps/
+   57  ls
+   58  cd linux
+   59  clear
+   60  vi ~/.bash_profile 
+   61  source ~/.bash_profile 
+   62  c
+   63  awk '{print $0}' data
+   64  cd data/
+   65  awk '{print $0}' data
+   66  ls
+   67  mv data.txt datsa
+   68  mv datsa data
+   69  awk '{print $0}' data
+   70  awk '{print $3,$1}' data 
+   71  c
+   72  time awk '{print $3,$1}' data
+   73  c
+   74  time awk '$2 > 30 {print $1,$3}' data
+   75  awk '$2 > 30 {print $1,$2"세",$3}' data
+   76  awk '$2 > 30 {print $1"님",$2"세",$3}' data
+   77  cat /etc/passwd
+   78  man sort
+   79  awk '$3>=1000 {print $3}' /etc/passwd
+   80  grep bash$ /etc/passwd | awk -F : '$3>=1000 {print $1,"UID="$3}'
+   81  cat data 
+   82  git pull
+   83  cd ..
+   84  git pull
+   85  ls
+   86  cd data/
+   87  ls
+   88  rm -rf =\=1000 
+   89  ls
+   90  ssh aaaa@192.168.20.10
+   91  sftp user@192.168.20.10
+   92  c
+   93  ifconfig
+   94  c
+   95  cd ..
+   96  cd
+   97  ls
+   98  c
+   99  cat > .nanorc
+  100  cat > .exrc
+  101  c
+  102  source .nanorc 
+  103  source .exrc 
+  104  c
+  105  ls
+  106  vi .bash
+  107  vi .bashrc 
+  108  ll
+  109  exit
+  110  awk '$1 !~ /a/{print $0' data
+  111  cd MLOps/
+  112  cd linux/data/
+  113  awk '$1 !~ /a/{print $0}' data
+  114  c
+  115  awk '$1 ~ /a/{print $0}' data
+  116  c
+  117  shutdown -h now
+  118  clear
+  119  yum -y update
+  120  clear
+  121  ifconfig
+  122  passwd root
+  123  passwd user
+  124  exit
+  125  c
+  126  ls
+  127  ls -l aaa
+  128  echo "hahaha
+  129  echo "hahaha" >> aaa
+  130  echo "hahaha" >?
+  131  echo "hahaha" >? aaa
+  132  c
+  133  ls -il /etc/passwd
+  134  cp /etc/passwd aaa 
+  135  cp /etc/passwd aa
+  136  ls -il /etc/passwd aa
+  137  diff /etc/passwd aa
+  138  sha256sum /etc/passwd aa
+  139  cp -i /etc/passwd aa
+  140  cp -f /etc/passwd aa
+  141  alias
+  142  c
+  143  alias | grep cp
+  144  alias 1234='ls -l'
+  145  1234
+  146  c
+  147  fl
+  148  c
+  149  unailas 1234
+  150  unalias 1234
+  151  c
+  152  alias
+  153  which
+  154  c
+  155  mkdir -p kbs/mbc/sbs
+  156  ls -lR kbs
+  157  cp kbs jtbc
+  158  cp -r kbs jtbc
+  159  ls -iR kbs jtbc/
+  160  c
+  161  ls -al 1> aaa
+  162  cat > aaaa
+  163  cat aaa
+  164  cat aaaa
+  165  c
+  166  touch bbbb
+  167  ls -l bbbb
+  168  cat bbbb
+  169  rm -f bbbb
+  170  touch bbbb
+  171  ls -l bbbb
+  172  echo "" > bbbb
+  173  ls -l bbbb
+  174  touch cccc
+  175  ls -l cccc
+  176  ls
+  177  rm -rf aa*
+  178  rm -rf bbbb
+  179  rm -rf cccc
+  180  ls
+  181  cat ?
+  182  rm -rf ?
+  183  ls
+  184  c
+  185  rm -rf kbs/
+  186  rm -rf jtbc/
+  187  ls
+  188  c
+  189  ls
+  190  cat .nanorc 
+  191  cat .exrc 
+  192  c
+  193  mkdor testdir1
+  194  mkdir testdir1
+  195  mkdir testdir2
+  196  mkdir testdir/sub_testdir1/sub_testdir2
+  197  ls -al testdir
+  198  ls -al testdir1
+  199  mkdir -p testdir1/sub_testdir1/sub_testdir2
+  200  c
+  201  rm -rf testdir2
+  202  rm -rf testdir1/
+  203  ls
+  204  c
+  205  ls -al | more /etc/passwd
+  206  c
+  207  man turn
+  208  c
+  209  less /etc/passwd
+  210  c
+  211  head /etc/passwd
+  212  cat -n /etc/passwd | head 
+  213  c
+  214  head -20 /etc/passwd
+  215  cat -n /etc/passwd | head -20
+  216  cat /etc/passwd | head -20 | grep root
+  217  c
+  218  tail /etc/passwd
+  219  cat -n /etc/passwd | tail
+  220  cat -n /etc/passwd | tail -5
+  221  cat -n /etc/passwd | tail -20 | grep bash
+  222  c
+  223  tail -n +
+  224  tail -n +41 /etc/passwd
+  225  cat -n /etc/passwd | tail -n +41 /etc/passwd
+  226  cat -n /etc/passwd
+  227  c
+  228  cat -n /etc/passwd | head -10
+  229  cat -n /etc/passwd | head -10 +10
+  230  cat -n /etc/passwd | head -n +10
+  231  cat -n /etc/passwd | head +10
+  232  cat -n /etc/passwd | tail -n +10
+  233  cat -n /etc/passwd | tail -n +10 | head -10
+  234  cat -n /etc/passwd | tail -n +10 | head -11
+  235  c
+  236  cat -n /etc/passwd | tail -n +20 | head -10
+  237  cat -n /etc/passwd | tail -n +20 | head -20
+  238  cat -n /etc/passwd | tail -n +20 | head -10
+  239  cat -n /etc/passwd | tail -n +10 | head 10
+  240  cat -n /etc/passwd | tail -n +10 | head -10
+  241  cat -n /etc/passwd | tail -n +10 | head -11
+  242  c
+  243  cat -n /etc/passwd | head -40
+  244  cat -n /etc/passwd | head -20 | tail 
+  245  c
+  246  tail -f -help
+  247  c
+  248  cat aaa
+  249  cat > aaa
+  250  cat aaa 
+  251  tail aaa
+  252  tail -f aaa
+  253  c
+  254  vi Day.txt
+  255  c
+  256  vi /etc/ssh/sshd_config 
+  257  nano /etc/ssh/sshd_config 
+  258  c
+  259  exit
+  260  c
+  261  systemctl restart ssh
+  262  systemctl restart sshd
+  263  systemctl status sshd
+  264  c
+  265  exit
+  266  c
+  267  exit
+  268  c
+  269  ls
+  270  c
+  271  pgrep sshd
+  272  pgrep nginx
+  273  c
+  274  alias
+  275  c
+  276  grep -E "root|bash" /etc/passwd
+  277  egrep "root|bash" /etc/passwd
+  278  egrep ^"root|^bash"
+  279  egrep ^"root|^bash" /etc/passwd
+  280  c
+  281  cp /etc/passwd aaa
+  282  echo "\^root" >> aaa
+  283  tail -1 aaa
+  284  grep root aaa
+  285  grep ^root
+  286  grep ^root aaa
+  287  c
+  288  fgrap ^root aaa
+  289  fgrep ^root aaa
+  290  c
+  291  rm -rf aaa 
+  292  c
+  293  grep ^r..t /etc/passwd
+  294  grep [rR]oot aaa
+  295  cp /etc/passwd aaa
+  296  grep [rR]oot aaa
+  297  c
+  298  grep [^nologin] aaa
+  299  c
+  300  grep ^[nologin]
+  301  grep ^[nologin] aaa
+  302  grep $[nologin] aaa
+  303  c
+  304  grep [^a-m]login aaa
+  305  c
+  306  grep [a-z]+oot aaa
+  307  grep ^[a-z]oot aaa
+  308  c
+  309  yum -y update
+  310  c
+  311  grep 'n(o|e)+' aaa
+  312  grep -E 'n(o|e)+' aaa
+  313  c
+  314  find / -name aaa
+  315  ls -al
+  316  c
+  317  ls -al /etc/passwd
+  318  c
+  319  ls /etc/ -al
+  320  c
+  321  find / -name .bashrc
+  322  find / -name .bash_ailases
+  323  find / -name .bash_profile
+  324  c
+  325  find . -type f -name aaa
+  326  find . -type f -name aaa ls
+  327  find . -type f -name aaa -ls
+  328  fidn . -type d
+  329  find . -type d
+  330  c
+  331  find . -type l
+  332  find /dev -type l
+  333  c
+  334  find . -type c
+  335  find /dev/ -type c
+  336  c
+  337  find /dev/ -type b
+  338  c
+  339  find . -type f -name aaa
+  340  find . -type f -name aa*
+  341  find / -type d -name kbs
+  342  c
+  343  man stat
+  344  c
+  345  ㅣㄴ
+  346  ls
+  347  c
+  348  find . -type f -perm 644 | head -5
+  349  find . -type f -perm 640 | head -5
+  350  find . -type f -perm 640
+  351  find . -type f -perm -640
+  352  c
+  353  ls -aaa
+  354  ls -l aaa
+  355  chmod 644 aaa
+  356  ls -l aaa
+  357  chmod 200 aaa
+  358  ls -l aaa
+  359  chmod 020 aaa
+  360  ls -l aaa
+  361  chmod 644 aaa 
+  362  c
+  363  ls -al aaa 
+  364  chmod 664 aaa 
+  365  find . -type f -name aaa -c
+  366  find . -type f -name aaa
+  367  find . -empty -name aaa
+  368  c
+  369  which vi
+  370  ls -l /usr/bin/vi
+  371  ls -l /usr/bin/vim
+  372  ls -l /usr/bin/nano 
+  373  cp /etc/passwd aaa
+  374  vim aaa
+  375  vi aaa
+  376  c
+  377  vi aaa 
+  378  vi aaa
+  379  ls
+  380  vi aaa
+  381  c
+  382  vi aaa
+  383  vi aaa 
+  384  c
+  385  vi aaa 
+  386  c
+  387  vi aaa 
+  388  c
+  389  vi aaa 
+  390  c
+  391  vi hello.c
+  392  cat hello.c
+  393  vi hello.c
+  394  c
+  395  rm -rf hello.c
+  396  c
+  397  ls
+  398  c
+  399  vi hello.c
+  400  vi aaa 
+  401  c
+  402  whoami
+  403  ifconfig
+  404  c
+  405  vi aaa 
+  406  c
+  407  ls
+  408  [A
+  409  vi aaa 
+  410  c
+  411  vi aaa
+  412  c
+  413  vim aaa eee
+  414  ls
+  415  jobs
+  416  c
+  417  vi aaa
+  418  c
+  419  vi aaa 
+  420  c
+  421  h
+  422  c
+  423  stat aaa 
+  424  chmod g+w, o-r aaa
+  425  chmod g+w,o-r aaa
+  426  stat aaa
+  427  chmod 554 aaa 
+  428  stat aaa 
+  429  chmod 644
+  430  chmod 644 aaa 
+  431  stat aaa
+  432  c
+  433  ls -l aaa
+  434  chmod ug-rw aaa
+  435  ls -l
+  436  c
+  437  ls -l aaa
+  438  chmod 644 aaa
+  439  ls -l aasa
+  440  ls -l aaa
+  441  chmod g+w,o-r
+  442  chmod g+w,o-r aaa
+  443  c
+  444  chmod ug-rw aaa
+  445  ls -l aaa
+  446  c
+  447  chmod ugo+r aaa
+  448  ls -l aaa
+  449  chmod a+w aaa
+  450  ls -l aaa
+  451  c
+  452  sftp user@192.168.20.10
+  453  c
+  454  ls
+  455  rm -rf *.odt
+  456  ls
+  457  clear
+  458  ls
+  459  c
+  460  yum -y install gcc
+  461  c
+  462  stat aaa
+  463  echo "hi" >> aaa
+  464  stat aaa
+  465  vi aaa
+  466  stat aaa
+  467  chmod 644 aaa
+  468  ls -l aaa 
+  469  touch aaaa bbbb
+  470  ls -l aaaa bbbb
+  471  mkdir testdir1 testdir2
+  472  ls -ld testdir*
+  473  c
+  474  umask
+  475  find /etc/ -name umask
+  476  find /etc/ -name -umask
+  477  find /etc/-d -name umask
+  478  find /etc/ -d -name umask
+  479  find /etc/ -f -name umask
+  480  find /etc/ -f umask
+  481  c
+  482  find /etc/ -name umask
+  483  c
+  484  h
+  485  find /etc/ -type f -name umask
+  486  find /etc/ -type f  umask
+  487  find /etc/ -type 0022 umask
+  488  find /etc/ -perm umask
+  489  find /etc/ -perm -name umask
+  490  grep -il umask /etc/* 2> /dev/null
+  491  find /etc/ -type f -exec umask
+  492  find /etc/ -type f -exec grep -il umask {} \;
+  493  c
+  494  poweroff
+  495  c
+  496  ls -l /etc/profile
+  497  yum -y update
+  498  c
+  499  cd MLOps/
+  500  cd linux/
+  501  ls
+  502  c
+  503  ls
+  504  c
+  505  vi Ruid.c
+  506  vim Ruid.c 
+  507  rm -rf Ruid.c 
+  508  c
+  509  cd ..
+  510  sftp 192.168.20.10
+  511  sftp user@192.168.20.10
+  512  ls
+  513  cat RUID,EUID.txt 
+  514  mv RUID,EUID.txt Ruid.c
+  515  ls
+  516  c
+  517  ls
+  518  yum -y install gcc
+  519  c
+  520  mv Ruid.c check.c
+  521  gcc -o ruid_euid_check check.c
+  522  xxd ruid_euid_check 
+  523  c
+  524  ls
+  525  c
+  526  cd ..
+  527  exit
+  528  c
+  529  cd /tmp/
+  530  pwd
+  531  c
+  532  cat > back1.c
+  533  cat back1.c 
+  534  vi back1.c
+  535  cat back1.c 
+  536  vi back1.c
+  537  cat back1.c 
+  538  c
+  539  gcc -o back1 back1.c 
+  540  c
+  541  ls -l back1
+  542  chmod 4755 back1
+  543  c
+  544  ls -l back1
+  545  find / -type -user root \( -perm -4000 -o -perm -2000 \) 2> /dev/null | grep
+  546  c
+  547  find / -type -user root \( -perm -4000 -o -perm -2000 \) 2> /dev/null | grep back1
+  548  find / -type -user root \( -perm -4000 -o -perm -2000 \) 2> /dev/null 
+  549  cp back1.c back2.c
+  550  vi back2.c
+  551  c
+  552  ls
+  553  mv back1.c back2.c back ~/MLOps/linux/
+  554  mv back1.c back2.c back ~/MLOps/linux/ .
+  555  mv back1.c back2.c ~/MLOps/linux/ .
+  556  ls
+  557  ls ~/MLOps/linux
+  558  find / -name back1
+  559  find / -name back1.c
+  560  cd /tmp/linux/
+  561  ls
+  562  cd data/
+  563  ls
+  564  rm -rf =\=1000 
+  565  ls
+  566  vi =\=1000 
+  567  cd ..
+  568  ls ~/
+  569  mv /tmp/linux/ ~/
+  570  ls
+  571  ls ~/
+  572  c
+  573  cd ~
+  574  c
+  575  ls
+  576  cd linux/
+  577  ls
+  578  ls ~/MLOps/
+  579  C
+  580  cd
+  581  mv linux/ ~/MLOps/
+  582  ls MLOps/
+  583  c
+  584  cd MLOps/
+  585  cd
+  586  cd MLOps/
+  587  ls
+  588  git add .
+  589  git add all
+  590  git add --all
+  591  c
+  592  git commit -m "commit file"
+  593  c
+  594  cd .
+  595  cd ..
+  596  c
+  597  shutdown
+  598  shutdown -h now
+  599  c
+  600  exit
+  601  c
+  602  shutdown -h now
+  603  ls
+  604  bash for_test.sh
+  605  vi for_test1.sh 
+  606  ls -al
+  607  chmod u+x for_test1.sh 
+  608  c
+  609  ls -al
+  610  source .bash_profile 
+  611  bash varone.sh 
+  612  var=5
+  613  $var+1
+  614  echo $var+1
+  615  echo "$var+1"
+  616  echo `$var+1`
+  617  echo `$var + 1`
+  618  echo `$(var) + 1`
+  619  echo `"$var" + 1`
+  620  var=5+1
+  621  echo $var
+  622  c
+  623  source .bash_profile 
+  624  env
+  625  c
+  626  echo $PATH
+  627  echo $PWD
+  628  echo $USER
+  629  echo $PS1
+  630  echo $SHELL
+  631  echo $HOME
+  632  echo $TERM
+  633  tty
+  634  echo $LOGNAME
+  635  a1=10
+  636  echo $a1
+  637  vi test.sh
+  638  ls
+  639  c
+  640  ./test.sh
+  641  chmod u+x test.sh 
+  642  c
+  643  ./test.sh 
+  644  c
+  645  ./test.sh 1 2 3 4 5
+  646  vi test.sh
+  647  ./test.sh 1 2 3 4 5
+  648  ls
+  649  c
+  650  ./test.sh 1 2 3 4 5
+  651  echo $$
+  652  c
+  653  . ./test.sh 
+  654  . ./test.sh 1 2 3 4 5
+  655  c
+  656  bash ./test.sh 
+  657  c
+  658  echo $$
+  659  c
+  660  if [[ $(ls -l /proc | grep ^[0-9] | wc -l) -lt 100 ]]; then echo "100개가 채 안되는 프로세스가 동작하고 있어"; fi
+  661  vim if.sh
+  662  cp if.sh if_test2.sh
+  663  vim if_test2.sh 
+  664  cat > case_test.sh
+  665  bash case_test.sh sh restart
+  666  bash case_test.sh start
+  667  bash case_test.sh sto
+  668  for i in $(ls /proc | grep ^[0-9); do ls -l /proc/$i/exe 2> /dev/null; done
+  669  for i in $(ls /proc | gr}ep ^[0-9); do ls -l /proc/$i/exe 2> /dev/null; done
+  670  for i in $(ls /proc | gr}ep ^[0-9]); do ls -l /proc/$i/exe 2> /dev/null; done
+  671  for i in $(ls /proc | grep ^[0-9]); do ls -l /proc/$i/exe 2> /dev/null; done
+  672  sftp user@192.168.20.10
+  673  ls
+  674  c
+  675  awk ?
+  676  man awk
+  677  awk '$3 ~ /^[0-9]/{print $3}' lastb.txt | sort -n | uniq
+  678  for i in $(awk '$3 ~ /^[0-9]/{print $3' lastb.txt | sort -n | uniq); do echo $i; grep -c $i lastb.txt ; echo "=============="; done
+  679  shutdown -h now
+  680  c
+  681  cat /etc/passwd
+  682  lastlog
+  683  grep /etc/passwd nologin
+  684  cat /etc/passwd | grep nologin
+  685  cat -c /etc/passwd | grep nologin
+  686  cat /etc/passwd | grep nologin | uniq -c
+  687  c
+  688  grep gdm /etc/passwd
+  689  lastlog | grep gdm
+  690  c
+  691  cd /
+  692  ls
+  693  cd ~
+  694  c
+  695  shutdown -h now
+  696  yum install git
+  697  c
+  698  clear
+  699  ps -ef
+  700  ps -ef | head -5
+  701  c
+  702  clear
+  703  source .bash_profile 
+  704  rm -rf aaa aaaa bbbb testdir1 testdir2
+  705  c
+  706  clear
+  707  source .bash_profile 
+  708  c
+  709  cp /etc/passwd aaa
+  710  ls -l aaa
+  711  c
+  712  cp aaa bbb
+  713  h
+  714  c
+  715  ls /etc/passwd
+  716  cat passwd
+  717  cat /etc/passwd-
+  718  c
+  719  tar cvf ab.tar aaa bbb
+  720  c
+  721  h
+  722  rm -f aaa bbb
+  723  ls -il aaa bbb
+  724  tar xvf ab.tar
+  725  ls -il aaa bbb 
+  726  rm -f aaa bbb
+  727  tar xvf ab.tar -C /tmp
+  728  ls -li aaa bbb
+  729  ls -li /tmp/aaa /tmp/bbb
+  730  ls -il aaa bbb
+  731  mkdir testdir
+  732  ls -ild testdir/
+  733  history | cat > centoshistory.log

@@ -1,0 +1,12 @@
+BEGIN {
+sum = 0;
+line = 0;
+}
+{
+sum += $2;
+line ++;
+}
+END {
+average = sum / line;
+print "나이의 평균 : "average"세";
+}
